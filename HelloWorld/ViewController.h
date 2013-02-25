@@ -11,5 +11,6 @@
 @interface ViewController : UIViewController
 
 @property (weak,nonatomic) IBOutlet UILabel* helloLabel ;
+@property (weak,nonatomic) IBOutlet UIImageView* birdImage ;
 
 @end

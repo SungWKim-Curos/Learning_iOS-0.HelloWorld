@@ -47,4 +47,11 @@
     _helloLabel.text = @"Hello iPod!" ;
 }
 
+
+
+-(IBAction) alphaSliderDidChange:(UISlider*)a_oAlphaSlider
+{
+    _birdImage.alpha = a_oAlphaSlider.value ;
+}
+
 @end
