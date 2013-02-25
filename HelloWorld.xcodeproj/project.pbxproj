@@ -18,6 +18,7 @@
 		E2D016AF16DB991F00A24A85 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2D016AE16DB991F00A24A85 /* Default-568h@2x.png */; };
 		E2D016B216DB991F00A24A85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D016B116DB991F00A24A85 /* ViewController.m */; };
 		E2D016B516DB991F00A24A85 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2D016B316DB991F00A24A85 /* ViewController.xib */; };
+		E2D016C016DB9CB000A24A85 /* Bird.png in Resources */ = {isa = PBXBuildFile; fileRef = E2D016BF16DB9CB000A24A85 /* Bird.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		E2D016B016DB991F00A24A85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E2D016B116DB991F00A24A85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E2D016B416DB991F00A24A85 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E2D016BF16DB9CB000A24A85 /* Bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bird.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		E2D0169E16DB991F00A24A85 /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				E2D016BF16DB9CB000A24A85 /* Bird.png */,
 				E2D016A716DB991F00A24A85 /* AppDelegate.h */,
 				E2D016A816DB991F00A24A85 /* AppDelegate.m */,
 				E2D016B016DB991F00A24A85 /* ViewController.h */,
@@ -163,6 +166,7 @@
 				E2D016AD16DB991F00A24A85 /* Default@2x.png in Resources */,
 				E2D016AF16DB991F00A24A85 /* Default-568h@2x.png in Resources */,
 				E2D016B516DB991F00A24A85 /* ViewController.xib in Resources */,
+				E2D016C016DB9CB000A24A85 /* Bird.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +296,7 @@
 				E2D016BA16DB991F00A24A85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
