@@ -26,4 +26,25 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+
+-(IBAction) iPhoneButtonDidClick:(id)sender
+{
+    _helloLabel.text = @"Hello iPhone!" ;
+}
+
+
+
+-(IBAction) iPadButtonDidClick:(id)sender
+{
+    _helloLabel.text = @"Hello iPad!" ;
+}
+
+
+
+-(IBAction) iPodButtonDidClick:(id)sender
+{
+    _helloLabel.text = @"Hello iPod!" ;
+}
+
 @end
