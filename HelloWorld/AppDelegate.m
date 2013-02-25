@@ -10,6 +10,12 @@
 
 #import "ViewController.h"
 
+
+
+int g_iTotalClicks ;
+
+
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

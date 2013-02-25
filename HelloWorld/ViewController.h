@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    int m_iClicked ;
+    NSString* m_oBirdName ;
+}
 
 @property (weak,nonatomic) IBOutlet UILabel* helloLabel ;
 @property (weak,nonatomic) IBOutlet UIImageView* birdImage ;
