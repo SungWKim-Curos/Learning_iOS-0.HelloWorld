@@ -143,11 +143,15 @@
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<int key="IBUIButtonType">1</int>
+						<object class="NSColor" key="IBUITintColor">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MSAwLjQwMDAwMDAwNiAwLjQwMDAwMDAwNgA</bytes>
+						</object>
 						<string key="IBUINormalTitle">iPod</string>
 						<reference key="IBUIHighlightedTitleColor" ref="165421400"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
+							<bytes key="NSRGB">MSAwIDAAA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="88381723"/>
 						<reference key="IBUIFontDescription" ref="23200016"/>

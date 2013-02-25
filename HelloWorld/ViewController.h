@@ -10,7 +10,7 @@
 
 @interface ViewController : UIViewController
 {
-    int m_iClicked ;
+    unsigned m_uClicked ;
     NSString* m_oBirdName ;
 }
 

@@ -32,7 +32,7 @@ extern int g_iTotalClicks ;
 
 -(void)viewDidAppear:(BOOL)animated
 {
-    m_iClicked = 0 ;
+    m_uClicked = 0 ;
 }
 
 
@@ -40,7 +40,7 @@ extern int g_iTotalClicks ;
 -(IBAction) iPhoneButtonDidClick:(id)sender
 {
     _helloLabel.text = @"Hello iPhone!" ;
-    m_iClicked++ ;
+    m_uClicked++ ;
     g_iTotalClicks++ ;
 }
 
@@ -49,7 +49,7 @@ extern int g_iTotalClicks ;
 -(IBAction) iPadButtonDidClick:(id)sender
 {
     _helloLabel.text = @"Hello iPad!" ;
-    m_iClicked++ ;
+    m_uClicked++ ;
     g_iTotalClicks++ ;
 }
 
@@ -58,7 +58,7 @@ extern int g_iTotalClicks ;
 -(IBAction) iPodButtonDidClick:(id)sender
 {
     _helloLabel.text = @"Hello iPod!" ;
-    m_iClicked++ ;
+    m_uClicked-- ;
     g_iTotalClicks++ ;
 }
 
