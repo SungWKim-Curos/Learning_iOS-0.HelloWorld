@@ -17,4 +17,8 @@
 @property (weak,nonatomic) IBOutlet UILabel* helloLabel ;
 @property (weak,nonatomic) IBOutlet UIImageView* birdImage ;
 
+@property (weak, nonatomic) IBOutlet UIButton *iPhoneButton;
+@property (weak, nonatomic) IBOutlet UIButton *iPadButton;
+@property (weak, nonatomic) IBOutlet UIButton *iPodButton;
+
 @end
