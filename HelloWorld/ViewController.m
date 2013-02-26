@@ -66,7 +66,8 @@ extern int g_iTotalClicks ;
 
 -(IBAction) alphaSliderDidChange:(UISlider*)a_oAlphaSlider
 {
-    _birdImage.alpha = a_oAlphaSlider.value ;
+    float fAlpha = a_oAlphaSlider.value ;
+    _birdImage.alpha = fAlpha ;
 }
 
 @end
